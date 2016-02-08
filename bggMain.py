@@ -37,7 +37,7 @@ else:
 
     # Allow removing modules
     if '-XMLfromGoogleSpreadsheet' not in sys.argv:
-        import bggGoogleSpreadsheetReader
+        import bggGoogleSpreadsheet
     if '-bggupdate' not in sys.argv:
         import bggUpdate
     if '-htmlparse' not in sys.argv:
